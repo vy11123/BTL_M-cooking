@@ -1,16 +1,28 @@
-header{
-    color:black;
-    text-align:center;
+body{
+    background-image: url('nên.jpg');
 }
+header{
+    color:white;
+    text-align:center;
+    background-image: url('nen.jpg');
+    width:30%;
+    height:55px;
+    margin:auto;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3)
+}   
+
 
 main{
+    border-radius: 8px;
     width:30%;
     margin:0px auto;
-    margin-top:0px;
     background-color:#99b063;
     text-align:center;
     justify-content:center;
     border:1px solid aliceblue;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3)
 }
 .hang1 h2,p {
     margin:0;
